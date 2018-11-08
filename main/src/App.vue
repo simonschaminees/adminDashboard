@@ -1,12 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/images/background/arendsnest.jpg">
+
     <LoginPage msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import LoginPage from './components/LoginPage.vue'
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue);
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import LoginPage from './pages/LoginPage.vue'
 
 export default {
   name: 'app',
