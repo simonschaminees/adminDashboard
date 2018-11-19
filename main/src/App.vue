@@ -2,6 +2,10 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/images/background/arendsnest.jpg">
     <LoginPage msg="Welcome to Your Vue.js App"/>
+    <hr>
+    <router-link to="/Adminpage">Home</router-link>
+       <router-link to="/Logout">Logout</router-link>
+    <hr>
     <router-view></router-view>
   </div>
 </template>

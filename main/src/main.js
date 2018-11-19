@@ -20,7 +20,7 @@ const routes = [
 
 // router
 const router = new VueRouter({
-  routes
+  routes,
 })
 
 Vue.config.productionTip = false
