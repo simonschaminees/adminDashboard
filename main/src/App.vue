@@ -3,8 +3,8 @@
 
     <LoginPage msg="Welcome to Your Vue.js App"/>
     <hr>
-    <router-link to="/Adminpage">Home</router-link>
-       <router-link to="/Logout">Logout</router-link>
+    <router-link to="/adminpage">Home</router-link>
+       <router-link to="/logout">Logout</router-link>
     <hr>
     <router-view></router-view>
   </div>

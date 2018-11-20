@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 
 //imports for paths
-import Adminpage from './Adminpage.vue'
-import Logout from './Logout.vue'
+import Adminpage from './pages/Adminpage.vue'
+import Logout from './pages/Logout.vue'
 
 
 
@@ -20,7 +20,7 @@ const routes = [
 
 // router
 const router = new VueRouter({
-  routes,
+  routes
 });
 
 Vue.config.productionTip = false;
