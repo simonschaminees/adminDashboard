@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-
-    <LoginPage msg="Welcome to Your Vue.js App"/>
-    <hr>
-    <router-link to="/Adminpage">Home</router-link>
-       <router-link to="/Logout">Logout</router-link>
-    <hr>
+    <Header />
     <router-view></router-view>
   </div>
 </template>
@@ -13,18 +8,17 @@
 <script>
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import Header from './components/Header.vue'
 
 Vue.use(BootstrapVue);
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import LoginPage from './pages/LoginPage.vue'
-
 export default {
   name: 'app',
-  components: {
-      LoginPage
+    components: {
+      Header
   }
 }
 </script>

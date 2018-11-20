@@ -3,10 +3,9 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 
 //imports for paths
-import Adminpage from './Adminpage.vue'
-import Logout from './Logout.vue'
-import Loginpage from './LoginPage.vue'
-
+import Adminpage from './pages/Adminpage.vue'
+import Logout from './pages/Logout.vue'
+import LoginPage from './pages/LoginPage.vue'
 
 
 Vue.use(VueRouter);// enable router plugin
@@ -17,11 +16,12 @@ Vue.use(VueRouter);// enable router plugin
 const routes = [
     { path:'/adminpage', component: Adminpage  },
     { path:'/Logout', component: Logout  },
+    { path:'/LoginPage', component: LoginPage  },
 ];
 
 // router
 const router = new VueRouter({
-  routes,
+  routes
 });
 
 Vue.config.productionTip = false;
