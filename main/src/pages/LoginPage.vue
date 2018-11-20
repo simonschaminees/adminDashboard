@@ -3,7 +3,8 @@
     <!-- <b-row>
       <img src="../assets/images/background/arendsnest.jpg" alt="Arendsnest">
     </b-row> -->
-    <b-row class="mb-3" align-v="center">
+    
+    <b-row id="simon" class="mb-3" align-v="center">
         <LoginForm />
     </b-row>
   </b-container>
@@ -24,5 +25,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+  @import "../styles/main.scss";
+  #simon {
+
+    color: $primary;
+  }
 </style>
