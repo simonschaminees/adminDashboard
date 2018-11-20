@@ -5,6 +5,7 @@ import App from './App.vue'
 //imports for paths
 import Adminpage from './Adminpage.vue'
 import Logout from './Logout.vue'
+import Loginpage from './LoginPage.vue'
 
 
 

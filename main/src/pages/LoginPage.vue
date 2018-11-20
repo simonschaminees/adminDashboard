@@ -1,8 +1,8 @@
 <template>
-  <b-container class="bv-example-row">
-    <b-row>
+  <b-container class="h-50npm">
+    <!-- <b-row>
       <img src="../assets/images/background/arendsnest.jpg" alt="Arendsnest">
-    </b-row>
+    </b-row> -->
     <b-row class="mb-3" align-v="center">
         <LoginForm />
     </b-row>
