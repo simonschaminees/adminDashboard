@@ -8,7 +8,7 @@ import Logout from './Logout.vue'
 
 
 
-Vue.use(VueRouter) // enable router plugin
+Vue.use(VueRouter);// enable router plugin
 
 
 
@@ -21,11 +21,11 @@ const routes = [
 // router
 const router = new VueRouter({
   routes,
-})
+});
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   router,
   render: h => h(App),
-}).$mount('#app')
+}).$mount('#app');
